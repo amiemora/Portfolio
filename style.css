@@ -1,0 +1,36 @@
+body {
+    text-align: center;
+    font-family: 'Pathway Gothic One', sans-serif;
+}
+header {
+    text-align: center;
+}
+.me {
+    width: 300px;
+    height: 375px;
+    text-align: center;
+}
+.avatar {
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    border-radius: 50%;
+}
+.nav {
+    display: inline-block;
+}
+.nav__list {
+    list-style: none;
+    
+}
+.nav__item {
+    display: inline;
+    padding: 5px;
+}
+a {
+    text-decoration: none;
+}
+.img-about {
+    width: 33.33%;
+    padding: 5px;
+}
