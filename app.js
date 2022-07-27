@@ -31,12 +31,7 @@ $(() => {
 
     })
 
-    const h1appear = () => {
-        $('.h1-greeting').hide(2000)
-        $('.h1-greeting').show('slow')
-
-    }
-    h1appear()
+  
 
 
 
