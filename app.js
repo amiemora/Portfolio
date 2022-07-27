@@ -31,7 +31,41 @@ $(() => {
 
     })
 
-  
+
+    const linkHover = () => {
+        $('.li-links').css('color','black')
+        
+    }
+    linkHover()
+
+
+    const textArea = () => {
+        $('textarea').focus( () => {
+            $(this).css('background','none')
+        }) 
+    }
+    textArea()
+
+    
+
+    const expand = () => {
+        $('.expand').click(() =>{
+            $('.div-about-me').animate({
+               width: '+=50px',
+               height: '+=600px',
+               padding: '50px'
+            }, 1000)
+            $('.after').show().animate({opacity: 1}, 2000)
+        })
+    }
+    expand()
+    
+
+
+
+
+
+ 
 
 
 

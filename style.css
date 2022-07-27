@@ -23,19 +23,32 @@ header {
 .nav {
     display: inline-block;
 }
+.nav__link {
+    color:black;
+}
+.nav__link:hover {
+    cursor: pointer;
+    text-shadow: 2px 2px yellow;
+}
 .nav__list {
     list-style: none;
+    padding-right: 20px;
     
 }
 .nav__item {
     display: inline;
     padding: 5px;
+    padding-right: 10px;
 }
 a {
     text-decoration: none;
 }
 .h1-about-me {
     padding-top: 40px;
+}
+.after {
+    display: none;
+    opacity: 0;
 }
 .div-about-me {
    column-count: 3;
@@ -149,4 +162,28 @@ button:hover {
 .resume-container {
     padding-left: 100px;
     padding-right: 100px;
+}
+.link-container {
+    text-align: left;
+}
+.ul-links {
+    padding-top: 30px;
+    padding-left: 200px;
+    
+}
+.li-links {
+    text-align: left;
+    padding-right: 600px;
+   
+}
+.li-item {
+    padding-bottom: 20px;
+    
+}
+.li-links:hover {
+    cursor: pointer;
+    text-shadow: 2px 2px yellow;
+}
+.review-container {
+    padding-top: 30px;
 }
