@@ -14,6 +14,10 @@ I have become really comfortable using hide(),show(),text(), and on.('click' , (
 
 I think it's so cool that you can use javascript and jQuery to make things actually happen on your website!
 
+I took the approach of giving pretty much every tag a class with the mindset that at any point I could style that tag specifically with any hassles other than referencing the class name. 
+
+
+
 
 Link to Site:
 
