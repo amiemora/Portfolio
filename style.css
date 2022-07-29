@@ -33,13 +33,13 @@ header {
 }
 .nav__list {
     list-style: none;
-    padding-right: 20px;
+    
     
 }
 .nav__item {
     display: inline;
     padding: 5px;
-    padding-right: 10px;
+   
 }
 a {
     text-decoration: none;
@@ -59,7 +59,7 @@ a {
    column-rule-width: 1px;
    column-width: 100px;
    padding-left: 70px;
-   padding-right: 70px;
+   
    padding-bottom: 30px;
 }
 .img-about {
@@ -253,33 +253,35 @@ div {
 .footer-link:hover {
     opacity: .7;
 }
-.review-container {
-    width: 600px;
-    max-width: 100%;
-    background-color: #fdffcd;
+/* .review-container {
+    width: 300px;
+    height: 200px;
+    /* max-width: 100%; */
+    /* background-color: #fdffcd;
     border-radius: 5px;
-    padding: 10px;
+    padding: 50px;
     
-    box-shadow: 0 0 10px 2px;
+    box-shadow: 0 0 10px 10px;
     display: grid;
     align-items: center;
-    justify-content: center;
-}
+    justify-content: center; */
+/* } */ 
 .btn-grid {
     display: grid;
     grid-template-columns: repeat(2,auto);
     gap: 10px;
-    margin: 20px 0;
-    margin-left: 20px;
+    margin: 1px 0;
+    margin-left: 175px;
 }
 .btn {
     border: 1px solid gray;
     border-radius: 5px;
-    padding: 5px 10px;
+    padding: 5px;
     color: white;
     outline: none;
     cursor: pointer;
 }
+
 .btn:hover {
     border-color: black;
 
@@ -287,11 +289,12 @@ div {
 .start-btn, .next-btn, .next-btn-2 {
     font-size: 1.5rem;
     font-weight: bold;
-    padding: 10px 20px;
+    padding: 10px;
     cursor: pointer;
+    margin-bottom: 50px;
 }
 .controls {
-    display: flex;
+    /* display: flex; */
     justify-content: center;
     align-items: center;
 }
