@@ -8,6 +8,11 @@ I wanted my second point of interaction to be the carousel since that was still 
 
 I wanted my third interactoin to be a quiz. I liked being able to use buttons on w03d01 for the lab. I figured it would be a good challenge to create a quiz that required me to use jQuery to make things happen when the user clicks a button. I tried a lot of things to get the buttons to work and I resorted to an array of objects because I just wanted my buttons to be able to work properly! Which in the end they did and in the future I'll be able to create a more lengthy quiz! 
 
+I wanted all my links to have a hover functionality with a yellow background - so that was really fun for me to make all of those have a yellow shadow!
+
+I have become really comfortable using hide(),show(),text(), and on.('click' , () => {}) functions. 
+
+I think it's so cool that you can use javascript and jQuery to make things actually happen on your website!
 
 
 Link to Site:
