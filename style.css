@@ -8,6 +8,7 @@ body {
 }
 header {
     text-align: center;
+    margin: 0 auto;
 }
 .me {
     width: 300px;
@@ -127,7 +128,7 @@ button:hover {
 }
 .p-title {
     padding-left: 20px;
-    padding-right: 4px;
+    
 }
 .summary {
     text-align: left;
@@ -163,7 +164,7 @@ button:hover {
 }
 .resume-container {
     padding-left: 100px;
-    padding-right: 100px;
+    
 }
 .link-container {
     text-align: left;
@@ -175,7 +176,7 @@ button:hover {
 }
 .li-links {
     text-align: left;
-    padding-right: 600px;
+    
    
 }
 .li-item {
@@ -192,6 +193,7 @@ button:hover {
 
 .logo {
     background-color: yellow;
+    
 }
 body {
     background: #fdffcd;
@@ -306,12 +308,7 @@ div {
 .lastOne, .lastTwo, .lastThree,.lastFour {
     display: none;
 }
-@media (max-width: 480px) {
-    .div-about-me{
-        display: table-row;
-        display: block;
-    }
-}
+
 
 @media screen and (max-width:768px) {
     .div-about-me, .about-me {
@@ -319,4 +316,57 @@ div {
         width: 100%;
         display: table-row
     }
+}
+@media (min-width:300px) {
+    .div-about-me, .about-me {
+        display:block;
+        width: 100%;
+        display: table-row;
+
+    }
+}
+
+@media (min-width:300px) {
+    .nav {
+        font-size: 50px;
+    }
+    .expand {
+        font-size: 40px;
+    }
+    .seir {
+        font-size: 40px;
+    }
+    .ul-footer {
+        font-size: 40px;
+    }
+    .carousel-container {
+        width: 100%;
+    }
+    .next, .previous {
+        border-radius: 100%;
+    }
+    .contact-container {
+        font-size: 40px;
+    }
+    .btn {
+        justify-content: space-around;
+        font-size: 40px;
+    }
+    .next, .previous {
+        width: 70px;
+        height: 70px;;
+    }
+    .question {
+        font-size: 60px;
+    }
+    .conclusion {
+        font-size: 60px;
+    }
+    .avatar {
+        width: 150px;
+        height: 150px;
+    }
+ 
+   
+
 }
