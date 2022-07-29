@@ -1,3 +1,6 @@
+div {
+    border: 1px solid red;
+}
 body {
     text-align: center;
     font-family: 'Pathway Gothic One', sans-serif;
@@ -266,12 +269,15 @@ div {
     align-items: center;
     justify-content: center; */
 /* } */ 
+.answer-button {
+    justify-content: center;
+}
 .btn-grid {
     display: grid;
     grid-template-columns: repeat(2,auto);
     gap: 10px;
     margin: 1px 0;
-    margin-left: 175px;
+    /* margin-left: 175px; */
 }
 .btn {
     border: 1px solid gray;
@@ -378,3 +384,4 @@ div {
     cursor: pointer;
     text-shadow: 2px 2px yellow; 
 }
+

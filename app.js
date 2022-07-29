@@ -73,7 +73,7 @@ const conclusion = () => {
     $('.next-btn-2').on('click', () => {
         $('.question-container').show()
         $('.three').show()
-        
+        $('.setTwo').hide()
     
        $('.setThree').show()
        $('.lastOne').show()
@@ -124,6 +124,7 @@ const startQuiz = () => {
         ])
 
         $('.next-btn').on('click', () => {
+            
             $('.one').hide()
             $('.two').show()
             $('.next-btn').hide()
@@ -131,6 +132,7 @@ const startQuiz = () => {
             $('.answerTwo').hide()
             $('.answerThree').hide()
             $('.answerFour').hide()
+            $('.setOne').hide()
 
             $('.question-container').show()
             $('.setTwo').show()
