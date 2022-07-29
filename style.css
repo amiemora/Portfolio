@@ -254,14 +254,14 @@ div {
     opacity: .7;
 }
 .review-container {
-    width: 800px;
+    width: 600px;
     max-width: 100%;
     background-color: #fdffcd;
     border-radius: 5px;
     padding: 10px;
+    
     box-shadow: 0 0 10px 2px;
-    width: 100vw;
-    height: 50vw;
+    display: grid;
     align-items: center;
     justify-content: center;
 }
@@ -270,6 +270,7 @@ div {
     grid-template-columns: repeat(2,auto);
     gap: 10px;
     margin: 20px 0;
+    margin-left: 20px;
 }
 .btn {
     border: 1px solid gray;
@@ -283,7 +284,7 @@ div {
     border-color: black;
 
 }
-.start-btn, .next-btn {
+.start-btn, .next-btn, .next-btn-2 {
     font-size: 1.5rem;
     font-weight: bold;
     padding: 10px 20px;
@@ -305,7 +306,8 @@ div {
 .conclusion{
     display: none;
 }
-.lastOne, .lastTwo, .lastThree,.lastFour {
+
+.setThree {
     display: none;
 }
 
@@ -326,7 +328,7 @@ div {
     }
 }
 
-@media (min-width:300px) {
+@media screen and (max-width:300px) {
     .nav {
         font-size: 50px;
     }
@@ -346,11 +348,11 @@ div {
         border-radius: 100%;
     }
     .contact-container {
-        font-size: 40px;
+        font-size: 30px;
     }
     .btn {
         justify-content: space-around;
-        font-size: 40px;
+        font-size: 30px;
     }
     .next, .previous {
         width: 70px;
