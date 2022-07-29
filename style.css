@@ -238,7 +238,9 @@ div {
 .footer-container {
     background: yellow;
     text-align: center;
-    padding: 2.5rem 0;    
+    padding: 2.5rem 0;  
+    
+   
 }
 
 .ul-footer {
@@ -328,7 +330,7 @@ div {
         display: table-row
     }
 } */
-@media screen and (max-width:668px) {
+@media screen and (max-width:800px) {
     .div-about-me, .about-me {
         display:block;
         width: 100%;
@@ -337,9 +339,9 @@ div {
     }
 }
 
- @media screen and (max-width:300px) {
+ @media screen and (min-width:300px) {
     .nav {
-        font-size: 50px;
+        font-size: 40px;
     }
     .expand {
         font-size: 40px;
@@ -364,14 +366,14 @@ div {
         font-size: 30px;
     }
     .next, .previous {
-        width: 70px;
-        height: 70px;;
+        width: 60px;
+        height: 60px;;
     }
     .question {
-        font-size: 60px;
+        font-size: 40px;
     }
     .conclusion {
-        font-size: 60px;
+        font-size: 40px;
     }
     .avatar {
         width: 150px;
