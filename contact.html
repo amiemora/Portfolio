@@ -7,11 +7,13 @@
         <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
         <script src="app.js" charset="utf-8"></script>
         <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/3662b7c6f0.js" crossorigin="anonymous"></script>
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&display=swap" rel="stylesheet">
     </head>
     <body>
         <header>
+        <div class="contact-container">
             <div class="logo">
                 <img src="https://i.imgur.com/dcbYgL9.jpg[/img]" alt="Avatar" class="avatar" >
 
@@ -22,26 +24,54 @@
                     <li class="nav__item"><a href="projects.html" class="nav__link">Projects</a></li>
                     <li class="nav__item"><a href="resume.html" class="nav__link">Resume</a></li>
                     <li class="nav__item"><a href="links.html" class="nav__link">More</a></li>
-                    <li class="nav__item"><a href="contact.html" class="nav__link">Contact Me</a></li>
+                    <li class="nav__item"><a href="contact.html" class="nav__link">Quiz</a></li>
                 </ul>
             </nav>
         </header>
 
         <div class="review-container">
-            <span>Leave me a Review on my First Portfolio Website</span>
-            <br>
-            <textarea class="text-area" placeholder="Please be Nice :) " col="30" rows="5"></textarea>
-            <br>
-            <button class="submit">Submit</button>
+           <div class="question-container hide">
+            <h4 class="question one">What do you think my favorite color is?</h4>
+            <h4 class="question two ">How tall would you say I am? Take a lucky guess!</h4>
+            <h4 class="question three">What is my dogs name? Take a lucky guess!</h4>
+            <span class="conclusion">In conclusion: I am Amie, my favorite color is yellow, I am 5'1, and my dogs name is Debo</span>
+                <div class="answer-button btn-grid">
+                    <button class="btn answerOne">Answer 1</button>
+                    <button class="btn answerTwo">Answer 2</button>
+                    <button class="btn answerThree">Answer 3</button>
+                    <button class="btn answerFour">Answer 4</button>
+
+                    <button class="btn lastOne">Answer 1</button>
+                    <button class="btn lastTwo">Answer 2</button>
+                    <button class="btn lastThree">Answer 3</button>
+                    <button class="btn lastFour">Answer 4</button>
+
+                   
+                </div>
+           </div>
+           <div class="controls">
+            <button class="start-btn btn">Start</button>
+            <button class="next-btn btn hide">Next</button>
+            <button class="next-btn-2 btn hide">Next</button>
+            <button class="next-btn-3 btn hide">Next</button>
+           </div>
         </div>
+           <div class="score">
+            <span id="right-answers"></span>
+           
+        </div>
+
         
-        <footer>
-            <a href="xamiemmorales@gmail.com" class="footer-link">xamiemmorales@gmail.com</a>
-            <ul>
-                <li><a href="https://github.com/amiemora">GitHub</a></li>
-                <li><a href="https://www.linkedin.com/in/amie-morales-101b38223/">Linkedin</a></li>
+    </div>
+
+
+        <footer class="footer-container">
+            <ul class="ul-footer">
+                <li><a href="xamiemmorales@gmail.com" class="footer-link">xamiemmorales@gmail.com</a></li>
+                <li><a href="https://github.com/amiemora" class="footer-link"><i class="fa-brands fa-github"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/amie-morales-101b38223/" class="footer-link"><i class="fa-brands fa-linkedin"></i></a></li>
             </ul>
-        </footer>  
+        </footer>   
     </body>
 
 </html>

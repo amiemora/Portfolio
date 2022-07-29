@@ -58,6 +58,7 @@ a {
    column-width: 100px;
    padding-left: 70px;
    padding-right: 70px;
+   padding-bottom: 30px;
 }
 .img-about {
     width: 33.33%;
@@ -113,7 +114,7 @@ button:hover {
 }
 .here:hover {
     cursor: pointer;
-    color: red;
+    text-shadow: 2px 2px yellow;
 }
 .h1-resume {
     text-align: center;
@@ -137,7 +138,7 @@ button:hover {
 }
 .summary a:hover {
     cursor: pointer;
-    color: red;
+    text-shadow: 2px 2px yellow;
 }
 .skills {
     text-align: left;
@@ -186,4 +187,121 @@ button:hover {
 }
 .review-container {
     padding-top: 30px;
+}
+
+.logo {
+    background-color: yellow;
+}
+body {
+    background: #fdffcd;
+    margin: 0;
+    line-height: 1.6;
+}
+:root {
+    --fs-h1: 3rem;
+    --fs-h2: 2.25rem;
+    --fs-h3: 1.25rem;
+    --fs-body: 1rem;
+    --fs-div: 1rem
+}
+@media (min-width: 800px) {
+    :root {
+        --fs-h1: 3.5rem;
+        --fs-h2: 3.75rem;
+        --fs-h3: 1.5rem;
+        --fs-body: 1.125rem;
+        --fs-div: 1.125rem;
+    }
+}
+img {
+    max-width: 100%;
+}
+h1, h2, h3 {
+    line-height: 1.0;
+    margin: 0;
+}
+h1 {font-size: var(--fs-h1)}
+h2 {font-size: var(--fs-h2)}
+h3 {font-size: var(--fs-h3)}
+
+div {
+    padding: 1em 2em;
+
+}
+
+.footer-container {
+    background: yellow;
+    text-align: center;
+    padding: 2.5rem 0;    
+}
+
+.ul-footer {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 2em 0;
+    padding: 0;
+}
+.ul-footer li {
+    margin: 0 .5em;
+
+}
+
+.footer-link:hover {
+    opacity: .7;
+}
+.review-container {
+    width: 800px;
+    max-width: 100%;
+    background-color: #fdffcd;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 0 10px 2px;
+    width: 100vw;
+    height: 50vw;
+    align-items: center;
+    justify-content: center;
+}
+.btn-grid {
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    gap: 10px;
+    margin: 20px 0;
+}
+.btn {
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: white;
+    outline: none;
+    cursor: pointer;
+}
+.btn:hover {
+    border-color: black;
+
+}
+.start-btn, .next-btn {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hide {
+    display: none;
+}
+
+.question {
+    display: none;
+
+}
+.conclusion{
+    display: none;
+}
+.lastOne, .lastTwo, .lastThree,.lastFour {
+    display: none;
 }
