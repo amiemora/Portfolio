@@ -51,8 +51,8 @@ $(() => {
     const expand = () => {
         $('.expand').click(() =>{
             $('.div-about-me').animate({
-               width: '+=50px',
-               height: '+=600px',
+               width: '100vw',
+               height: '100vh',
                padding: '50px'
             }, 1000)
             $('.after').show().animate({opacity: 1}, 2000)
