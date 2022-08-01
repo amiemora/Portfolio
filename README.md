@@ -16,16 +16,16 @@ I think it's so cool that you can use javascript and jQuery to make things actua
 
 I took the approach of giving pretty much every tag a class with the mindset that at any point I could style that tag specifically with any hassles other than referencing the class name. 
 
-
+As I am finishing up the last details of my site - I have grown less and less fond of what I have created. I feel that I can do a better job of showing my skills but I got caught up in other details that took up a lot of my time. I would say I became more and more jumbled in my code and my mind as I got more into my site. Going forward I will have a better route of creating a website and styling it all then will go back and add all my fancy jquery interaction features - I was jumping in between it all and that made it a lot more complicated for me. 
 
 
 Link to Site:
+https://majestic-kringle-57791d.netlify.app/index.html
 
+-open this link into your broswer to see my porfolio website.
 
 
 Unsolved Problems: 
-
-- My last set of buttons are stacking and I didnt want them to be. 
-- The box containing the quiz refuses to move from the left side of the page so I'll have to mess with that more. 
-- On my Quiz page the yellow background in the header and footer don't touch the sides when it gets smalller. 
-- My animation doesn't work exactly like I want it to but it still looks good.
+- My animation on my first page doesn't work exactly how I imagined - I wanted a more fixed expanding of the paragraphs - it only works great on my huge monitor but on my mac screen the end of the first paragraph is on top on my second column. 
+- I was able to fix all pages except the quiz page with my last jquery interaction - the header background does not touch the sides all the way. 
+- Next time I will build mobile first and then move up in size, this was one of my biggest struggles.
