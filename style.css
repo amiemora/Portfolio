@@ -1,6 +1,4 @@
-/* div {
-    border: 1px solid red;
-} */
+
 body {
     text-align: center;
     font-family: 'Pathway Gothic One', sans-serif;
@@ -134,49 +132,11 @@ button:hover {
     padding-left: 20px;
     
 }
-/* .summary {
-    text-align: left;
-    padding-left: 20px;
-    padding-top: 10px;
-} */
-.p-sum-text a {
-    color: black;
-}
-.p-sum-text a:hover {
-    cursor: pointer;
-    text-shadow: 2px 2px yellow;
-}
-/* .skills {
-    text-align: left;
-    padding-left: 20px;
-    padding-top: 10px;
-}
-.experience {
-    text-align: left;
-    padding-left: 20px;
-    padding-top: 10px;
-}
-.education {
-    text-align: left;
-    padding-left: 20px;
-    padding-top: 10px;
-}
-.certs {
-    text-align: left;
-    padding-left: 20px;
-    padding-top: 10px;
-} */
-/* .resume-container {
-    padding-left: 100px;
-    
-} */
 .link-container {
     text-align: left;
 }
 .ul-links {
-    padding-top: 30px;
-    /* padding-left: 200px; */
-    
+    padding-top: 30px; 
 }
 .li-links {
     text-align: left;
@@ -314,14 +274,6 @@ div {
     display: none;
 }
 
-
-/* @media screen and (max-width:768px) {
-    .div-about-me, .about-me {
-        display: block;
-        width: 100%;
-        display: table-row
-    }
-} */
 @media screen and (max-width:900px) {
     .div-about-me, .about-me {
         display:block;
@@ -393,9 +345,8 @@ div {
         margin: 0 auto;
     
     }
-    hr {
-        margin: auto 100px;
-    } 
+  
+  
  
 } 
 
@@ -417,12 +368,21 @@ div {
     text-align: left;
 }
 hr {
-    width: 1100px;
+    width: 70vw;
+    margin-left: auto;
+    margin-right: auto;
 }
 .seir {
     text-align: center;
 }
-/* .p-sum-text, .p-summary {
-    padding-left: 90px;
-} */
 
+/* .sum-link a {
+    color: black;
+}
+.sum-link a:hover {
+    cursor: pointer;
+    text-shadow: 2px 2px yellow;
+} */
+.summary {
+    max-width: 900px;
+}
