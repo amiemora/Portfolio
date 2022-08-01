@@ -127,25 +127,26 @@ button:hover {
 }
 .contact-container p {
     display: inline-block;
+    margin: auto;
     
 }
 .p-title {
     padding-left: 20px;
     
 }
-.summary {
+/* .summary {
     text-align: left;
     padding-left: 20px;
     padding-top: 10px;
-}
-.summary a {
+} */
+.p-sum-text a {
     color: black;
 }
-.summary a:hover {
+.p-sum-text a:hover {
     cursor: pointer;
     text-shadow: 2px 2px yellow;
 }
-.skills {
+/* .skills {
     text-align: left;
     padding-left: 20px;
     padding-top: 10px;
@@ -164,17 +165,17 @@ button:hover {
     text-align: left;
     padding-left: 20px;
     padding-top: 10px;
-}
-.resume-container {
+} */
+/* .resume-container {
     padding-left: 100px;
     
-}
+} */
 .link-container {
     text-align: left;
 }
 .ul-links {
     padding-top: 30px;
-    padding-left: 200px;
+    /* padding-left: 200px; */
     
 }
 .li-links {
@@ -234,15 +235,6 @@ div {
     padding: 1em 2em;
 
 }
-
-.footer-container {
-    background: yellow;
-    text-align: center;
-    padding: 2.5rem 0;  
-    
-   
-}
-
 .ul-footer {
     list-style: none;
     display: flex;
@@ -330,7 +322,7 @@ div {
         display: table-row
     }
 } */
-@media screen and (max-width:800px) {
+@media screen and (max-width:900px) {
     .div-about-me, .about-me {
         display:block;
         width: 100%;
@@ -339,7 +331,7 @@ div {
     }
 }
 
- @media screen and (min-width:300px) {
+ @media screen and (max-width:400px) {
     .div-about-me, .about-me {
         display:block;
         width: 100%;
@@ -347,16 +339,16 @@ div {
 
     }
     .nav {
-        font-size: 40px;
+        font-size: 80px;
     }
     .expand {
-        font-size: 40px;
+        font-size: 80px;
     }
     .seir {
-        font-size: 40px;
+        font-size: 80px;
     }
     .ul-footer {
-        font-size: 40px;
+        font-size: 80px;
     }
     .carousel-container {
         width: 100%;
@@ -365,26 +357,45 @@ div {
         border-radius: 100%;
     }
     .contact-container {
-        font-size: 30px;
+        font-size: 80px;
     }
     .btn {
         justify-content: space-around;
-        font-size: 30px;
+        font-size: 70px;
     }
     .next, .previous {
         width: 60px;
         height: 60px;;
     }
     .question {
-        font-size: 40px;
+        font-size: 70px;
     }
     .conclusion {
-        font-size: 40px;
+        font-size: 70px;
     }
     .avatar {
         width: 150px;
         height: 150px;
     }
+    .container {
+        position: relative;
+        min-height: 100vh;
+        padding-bottom: 2.5rem;
+        margin: 0 0 20px;
+    }
+    .footer-container{
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        background: yellow;
+        text-align: center;
+        height: auto;
+        margin: 0 auto;
+    
+    }
+    hr {
+        margin: auto 100px;
+    } 
  
 } 
 
@@ -392,4 +403,26 @@ div {
     cursor: pointer;
     text-shadow: 2px 2px yellow; 
 }
+
+.container {
+    position: relative;
+    min-height: 100vh;
+    padding-bottom: 2.5rem;
+    margin-bottom: 0;
+}
+.resume-container, ul, li, p {
+    /* float:left; */
+    position: relative;
+    justify-content: left;
+    text-align: left;
+}
+hr {
+    width: 1100px;
+}
+.seir {
+    text-align: center;
+}
+/* .p-sum-text, .p-summary {
+    padding-left: 90px;
+} */
 
